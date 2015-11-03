@@ -7,7 +7,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan("guru.springframework.controllers")
+@ComponentScan({"guru.springframework.controllers", "guru.springframework.services"})
 public class AutoWireInSpringApplication {
 
     public static void main(String[] args) {
